@@ -92,7 +92,7 @@ nav a {
 }
 
 .header-div {
-    display: inline-block; 
+    /* display: inline-block;  */
 }
 
 .header-text {
@@ -100,12 +100,14 @@ nav a {
     width: 60%;
     margin: 3%;
     text-align: center;
+    line-height: 1.1;
 }
 
 #header-image {
     width: 20%;
     border-radius: 50%;
-    margin-left: 5%;
+    display: inline-block;
+    margin-left: 7%;
     margin-top: 3%;
 }
 
@@ -119,7 +121,17 @@ h2 {
     padding: 2% 0;
 }
 
+.main-text {
+    background-color: #DDB9A3;
+    width: 90%;
+    margin: 0 auto;
+    color: whitesmoke;
+}
 
+.main-text p {
+    padding: 2%;
+    line-height: 1.2;
+}
 
 
 
