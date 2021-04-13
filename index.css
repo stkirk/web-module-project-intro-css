@@ -61,16 +61,36 @@ html {
 }
 
 body {
+    font-family: 'Roboto Mono', monospace;
     font-size: 1.6rem;
-    line-height: 1.5;
     color: #4f4f4f;
 }
 
-a {
+nav a {
     text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 1.3;
+    border: 0px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 15%;
+}
+
+.plan-your-visit {
+    background-color: #FF764E;
+}
+
+.learn-about-the-park {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
 }
 
 h1 {
+    font-family: 'Chelsea Market', cursive;
     font-size: 4rem;
 }
 
