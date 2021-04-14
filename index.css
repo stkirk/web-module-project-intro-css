@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END MEYER RESET */
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    color: #4f4f4f;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 1.3;
+    border: 0px;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 1% 0;
+    width: 15%;
+    margin: 5% 7.5%;
+}
+
+.plan-your-visit {
+    background-color: #FF764E;
+}
+
+.learn-about-the-park {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
+}
+
+.header-text {
+    display: inline-block;
+    width: 60%;
+    margin: 3%;
+    text-align: center;
+    line-height: 1.1;
+}
+
+#header-image {
+    width: 20%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    padding: 2% 0;
+}
+
+h2 {
+    padding: 2% 0;
+}
+
+.main-text {
+    background-color: #DDB9A3;
+    width: 90%;
+    margin: 3% auto;
+    color: whitesmoke;
+}
+
+.main-text p {
+    padding: 2%;
+    line-height: 1.2;
+}
+
+
+
+
+#campfire-image {
+    display: inline-block;
+    width: 10%;
+    margin: 0 45%;
+}
+
+#camper-image {
+    display: inline-block;
+    width: 10%;
+    margin: 0 45%;
+}
+
+.icons p {
+    width: 25%;
+    margin: 2% auto;
+    text-align: center;
+
+}
+
+.footer-nav {
+    background-color: #F9E7DC;
+}
+
+.footer-image {
+    height: 30vh;
+    margin-top: 5%;
+    background-image: url('assets/footer_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
